@@ -1,0 +1,6 @@
+framework module Pods_TapLogger {
+  umbrella header "Pods-TapLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

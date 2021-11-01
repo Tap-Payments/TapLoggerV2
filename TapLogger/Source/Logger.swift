@@ -6,7 +6,7 @@
 //  Copyright © 2017 Tap Payments. All rights reserved.
 //
 
-import struct TapAdditionsKit.LocaleAdditions
+import TapAdditionsKitV2
 
 public func DebugLog(_ format: String, _ args: CVarArg..., filename: String = #file, line: Int = #line, funcName: String = #function) {
     
@@ -38,7 +38,7 @@ private func LOG(_ format: String, _ args: [CVarArg], filename: String, line: In
     
     let log = args.count > 0 ? String(format: format, arguments: args) : format
     
-    print("\(logDateFormatter.string(from: Date())) \(process.processName)[\(process.processIdentifier):\(threadId)] \(filename.lastPathComponent)(\(line)) \(funcName):\t\(log)\n", terminator: String.empty)
+    print("\(logDateFormatter.string(from: Date())) \(process.processName)[\(process.processIdentifier):\(threadId)] \(filename)(\(line)) \(funcName):\t\(log)\n", terminator: String.tap_empty)
 }
 
-private let logDateFormatter = DateFormatter(locale: Locale.enUS, dateFormat: "MM/dd/yyyy HH:mm:ss:SSS")
+private let logDateFormatter = DateFormatter(locale: Locale.tap_enUS, dateFormat: "MM/dd/yyyy HH:mm:ss:SSS")
