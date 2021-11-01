@@ -6,7 +6,7 @@ Pod::Spec.new do |tapLogger|
     tapLogger.name                  = 'TapLoggerV2'
     tapLogger.summary               = 'Basic logger utility.'
     tapLogger.requires_arc          = true
-    tapLogger.version               = '1.0.0'
+    tapLogger.version               = '1.0.1'
     tapLogger.license               = { :type => 'MIT', :file => 'LICENSE' }
     tapLogger.author                = { 'Osama Rabie' => 'o.rabie@tap.company' }
     tapLogger.homepage              = 'https://github.com/Tap-Payments/TapLoggerV2'
