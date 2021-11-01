@@ -1,0 +1,29 @@
+PODS:
+  - SwiftLint (0.27.0)
+  - TapAdditionsKit/Foundation/DateFormatter (1.1)
+  - TapAdditionsKit/Foundation/Locale (1.1)
+  - TapAdditionsKit/Foundation/NumberFormatter (1.1)
+  - TapAdditionsKit/SwiftStandartLibrary/Int (1.1)
+  - TapAdditionsKit/SwiftStandartLibrary/String (1.1):
+    - TapAdditionsKit/Foundation/Locale
+    - TapAdditionsKit/Foundation/NumberFormatter
+    - TapAdditionsKit/SwiftStandartLibrary/Int
+
+DEPENDENCIES:
+  - SwiftLint
+  - TapAdditionsKit/Foundation/DateFormatter
+  - TapAdditionsKit/Foundation/Locale
+  - TapAdditionsKit/SwiftStandartLibrary/String
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftLint
+    - TapAdditionsKit
+
+SPEC CHECKSUMS:
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+  TapAdditionsKit: 140a088872313f07b047d803e7fa513a1f8d4f6d
+
+PODFILE CHECKSUM: 78b15333c0a78edfc15cda9a0ba741d9543316e5
+
+COCOAPODS: 1.6.0.beta.1
